@@ -1,0 +1,110 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+  padding: 30px 0 0 0;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+body {
+  background-color: #D8F0F8;
+  font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+}
+.main-grid {
+  display: grid;
+  gap: 20px;
+  padding: 30px 0;
+  grid-template-columns: repeat(3, 1fr);
+}
+.mainLabel {
+  color: #2AD1D1;
+  font-size: 22px;
+}
+.mainSubLabel {
+  color: gray;
+  padding: 15px 0;
+  font-size: 14px;
+}
+.widgetContainer {
+  padding: 3px 0%;
+}
+.widgetContainer input[type='text'] {
+  width: 60%;
+  height: 20px;
+  margin: 0px;
+  padding: 4px;
+}
+.widgetContainer ul.suggestions {
+  width: 60%;
+  list-style-type: none;
+  border: 1px solid #ebebeb;
+  padding: 0px;
+  margin: -2px auto;
+}
+ul.suggestions li {
+  border-bottom: 1px solid #ebebeb;
+  background-color: #fff;
+  padding: 5px;
+  font-size: 14px;
+  font-weight: 200;
+}
+ul.suggestions li:hover {
+  background-color: #36C1E5;
+  color: #fff;
+  cursor: pointer;
+}
+ul.suggestions li:last-child {
+  border-bottom: none;
+}
+span.robotLabel {
+  display: block;
+  font-family: monospace;
+  color: #243947;
+  font-size: 12px;
+  padding: 10px 0;
+}
+.robotValue {
+  font-size: 18px;
+  color: #000;
+}
+ul.flagList {
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+}
+ul.flagList li {
+  float: left;
+  padding: 0 5px;
+  font-size: 32px;
+}
+div.left {
+  text-align: left;
+}
+input[type='checkbox'] {
+  margin: 0 5px 0 0;
+}
+.primaryBtn {
+  background-color: #36C1E5;
+  color: #fff;
+  padding: 8px 24px;
+  border-radius: 6px;
+  cursor: pointer;
+}
